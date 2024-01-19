@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: var(--DM);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background: #111827;
+}
+.container {
+  max-width: calc(1400px + 40px);
+  margin-inline: auto;
+  padding: 0 90px;
+
+  @include desktop-small {
+    padding: 0 60px;
+  }
+  @include tablet {
+    padding: 0 40px;
+  }
+  @include tablet-small {
+    padding: 0 30px;
+  }
+  
+}
+
+.main {
+  padding: 20px;
+}

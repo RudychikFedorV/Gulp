@@ -1,0 +1,57 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --DM: "DM Sans", sans-serif;
+  --Rubik: "Rubik", sans-serif;
+  --transition: 0.2s all ease-in-out;
+
+  --Rubik-14: 400 14px / normal var(--Rubik);
+  --Rubik-18: 400 18px / normal var(--Rubik);
+  --Rubik-20: 500 20px / normal var(--Rubik);
+
+  --DM-14: 500 14px / normal var(--DM);
+  --DM-14-4: 400 14px / normal var(--DM);
+  --DM-16: 500 16px / normal var(--DM);
+  --DM-16-4: 400 16px / normal var(--DM);
+  --DM-15: 500 15px / normal var(--DM);
+  --DM-18: 500 18px / normal var(--DM);
+  --DM-18-4: 400 18px / normal var(--DM);
+  --DM-24: 500 24px / normal var(--DM);
+  --DM-28: 500 28px / normal var(--DM);
+  --DM-38: 700 38px / normal var(--DM);
+  --DM-42: 700 42px / normal var(--DM);
+  --DM-45: 700 45px / normal var(--DM);
+  --DM-50: 700 50px / normal var(--DM);
+  --DM-58: 700 58px / normal var(--DM);
+
+  --c-primary: #0b8fed;
+  --c-text-white: #fff;
+  --c-border: #eee;
+
+	--c-white: #FFF;
+	--c-white-1: #f9fafb;
+	--c-white-2: #E5E7EB;
+	--c-white-3: rgba(255, 255, 255, 0.8);
+	--c-text-shadow-1: 0px 4px 4px rgba(0, 0, 0, 0.07);
+	--c-box-shadow-1: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+	--c-border-1: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
+	--c-background-1: linear-gradient(268deg, rgba(254, 254, 255, 0.03) -11.04%, rgba(255, 255, 255, 0.02) 104.89%);
+	--c-background-2: var(      --Gardient,      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)    );
+	--c-background-3: linear-gradient(      268deg,      rgba(254, 254, 255, 0.03) -11.04%,      rgba(255, 255, 255, 0.02) 104.89%    );
+	--c-background-4: var(--Bg, linear-gradient(180deg, rgba(254, 254, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%));
+	--c-background-5: linear-gradient(180deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+	--c-background-6: var(--Gardient,linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%));
+	--c-background-7: #969696;
+	--c-background-8: var(--Gd,linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%));
+	--c-svg1:#8A7FD9;
+	--c-svg2: var(--2, linear-gradient(180deg, #D97F95 0%, #923250 100%));
+	--c-svg3: var(--3, linear-gradient(180deg, #84D8ED 0%, #4292BB 100%));
+	--c-svg4:#92EFC3;
+	--c-svg5: var(--5, linear-gradient(180deg, #BC7FD9 0%, #923283 100%));
+	--c-svg6: var(--4, linear-gradient(180deg, #8684ED 0%, #4247BB 100%));
+	--c-svg6:#2563eb;
+}

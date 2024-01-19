@@ -1,0 +1,41 @@
+.footer {
+  .footer-span {
+    max-width: 1472px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.2;
+    background: var(--c-background-7);
+    margin-bottom: 33px;
+  }
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+
+    @include tablet-small {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__text {
+      color: var(--c-white-3);
+      font: var(--Rubik-14);
+      line-height: 14px;
+    }
+    &__nav {
+      display: flex;
+      gap: 55px;
+    }
+    &__info {
+      color: var(--c-white-3);
+      font: var(--DM-14-4);
+      line-height: 14px;
+	  &:hover {
+        color: lighten(#8a7fd9, 5%);
+      }
+      &:active {
+        color: lighten(#d946ef, 5%);
+      }
+    }
+  }
+}

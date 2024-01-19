@@ -1,0 +1,102 @@
+.ourService {
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--c-white);
+    font: var(--DM-42);
+    margin-bottom: 30px;
+
+    @include tablet {
+      padding: 0 40px;
+    }
+    @include tablet-small {
+      padding: 0 20px;
+    }
+    @include mobile {
+      padding: 10px;
+      font: var(--DM-38);
+      text-align: center;
+      margin-bottom: 0px;
+    }
+  }
+  &__informations {
+    max-width: 587px;
+    color: var(--c-white);
+    margin-inline: auto;
+    text-align: center;
+    font: var(--DM-16-4);
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+  &__sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+    @include tablet {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include tablet-small {
+      grid-template-columns: 1fr;
+    }
+  }
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 23px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    border: var(--c-border-1);
+    background: var(--c-background-1);
+  }
+  .svg {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    padding: 18px;
+    border-radius: 55px;
+    margin-bottom: 19px;
+  }
+  &__sections-svg1 {
+    background: var(--c-svg1);
+  }
+  &__sections-svg2 {
+    background: var(--c-svg2);
+  }
+  &__sections-svg3 {
+    background: var(--c-svg3);
+  }
+  &__sections-svg4 {
+    background: var(--c-svg4);
+  }
+  &__sections-svg5 {
+    background: var(--c-svg5);
+  }
+  &__sections-svg6 {
+    background: var(--c-svg6);
+  }
+  &__sections-title {
+    margin-inline: auto;
+    color: var(--c-white);
+    font: var(--DM-24);
+    margin-bottom: 17px;
+  }
+  &__sections-info {
+    color: var(--c-white);
+    font: var(--DM-16-4);
+    margin-bottom: 17px;
+    line-height: 26px;
+  }
+  &__sections-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  &__sections-learn {
+    color: var(--c-white);
+    font: var(--DM-16-4);
+  }
+}

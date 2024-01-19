@@ -1,0 +1,91 @@
+.infoSection {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  @include tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  @include tablet-small {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .infoSection-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 33px;
+
+    &__logo {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    &__name {
+      color: var(--c-white);
+      font: var(--Rubik-20);
+    }
+
+    &__location {
+      display: flex;
+      gap: 7px;
+      align-items: center;
+    }
+    &__info {
+      color: var(--c-white-3);
+      font: var(--DM-16-4);
+      line-height: 32px;
+      transition: var(--transition);
+
+      &:hover {
+        color: lighten(#8a7fd9, 5%);
+      }
+      &:active {
+        color: lighten(#d946ef, 5%);
+      }
+    }
+    @include tablet {
+      grid-template-columns: 1fr;
+    }
+  }
+  .infoSection-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__texts {
+      color: var(--c-white-3);
+      font: var(--DM-18);
+      line-height: 40px;
+      letter-spacing: 0.18px;
+      transition: var(--transition);
+      &:hover {
+        color: lighten(#8a7fd9, 5%);
+      }
+      &:active {
+        color: lighten(#d946ef, 5%);
+      }
+    }
+
+    &__text {
+      color: var(--c-white-3);
+      font: var(--DM-18-4);
+      line-height: 40px;
+      letter-spacing: 0.18px;
+      transition: var(--transition);
+
+      &:hover {
+        color: lighten(#8a7fd9, 5%);
+      }
+      &:active {
+        color: lighten(#d946ef, 5%);
+      }
+    }
+  }
+}
